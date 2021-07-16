@@ -1,5 +1,6 @@
-require 'gci'
+require 'uri'
 require 'active_support/core_ext/module/delegation'
+require "cgi"
 
 module Paperclip
   class UrlGenerator
@@ -72,5 +73,7 @@ module Paperclip
     def escape_regex
       /[\?\(\)\[\]\+]/
     end
+
+
   end
 end
