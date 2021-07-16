@@ -1,4 +1,4 @@
-require 'uri'
+require 'gci'
 require 'active_support/core_ext/module/delegation'
 
 module Paperclip
