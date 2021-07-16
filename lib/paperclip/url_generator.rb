@@ -1,6 +1,5 @@
 require 'uri'
 require 'active_support/core_ext/module/delegation'
-require "cgi"
 
 module Paperclip
   class UrlGenerator
@@ -74,6 +73,6 @@ module Paperclip
       /[\?\(\)\[\]\+]/
     end
 
-
+    
   end
 end
