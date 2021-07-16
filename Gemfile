@@ -4,6 +4,7 @@ gemspec
 
 gem 'sqlite3', '~> 1.3.8', :platforms => :ruby
 gem 'pry'
+gem 'cgi'
 
 # Hinting at development dependencies
 # Prevents bundler from taking a long-time to resolve
